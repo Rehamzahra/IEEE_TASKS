@@ -1,0 +1,30 @@
+*{padding: 0;margin: 0;}
+.container{width:400px ; margin: auto; overflow: hidden;}
+.ul{
+    display: inline-flex;
+    position: relative; 
+    animation: x 4s ease-in-out infinite;
+}
+.list1{
+height: 400px ;
+width: 400px;
+}
+.list2{
+height: 400px ;
+width: 400px;
+}
+
+@keyframes x {
+    0%{right: 0;}
+    35%{right: 400px;}
+   
+}
+.btn{
+
+    color: rgb(205, 24, 24);
+}
+.rst{
+
+    color:rgb(213, 22, 22)
+}
+
